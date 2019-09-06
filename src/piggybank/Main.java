@@ -15,13 +15,10 @@ public class Main
         //bank.add(new Dime(7));
         //bank.add(new Dollar());
         //bank.add(new Dollar(80));
-        // bank.add(new Nickel());
+        //bank.add(new Nickel());
         //bank.add(new Penny(20));
-        bank.add(new Penny(1));
-
-
-
-
+        bank.add(new Penny(5));
+        bank.add(new Quarter());
         
 
         //loop
