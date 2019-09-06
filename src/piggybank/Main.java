@@ -11,10 +11,15 @@ public class Main
 
         ArrayList<AbstractBank> bank = new ArrayList<AbstractBank>();
 
-        bank.add(new Dime());
-        bank.add(new Dime(7));
-        bank.add(new Dollar());
-        bank.add(new Dollar(80));
+        //bank.add(new Dime());
+        //bank.add(new Dime(7));
+        //bank.add(new Dollar());
+        //bank.add(new Dollar(80));
+
+        bank.add(new Nickel());
+        bank.add(new Nickel(20));
+
+
 
         
 
