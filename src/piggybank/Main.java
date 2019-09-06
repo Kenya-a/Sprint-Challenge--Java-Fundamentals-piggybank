@@ -37,7 +37,7 @@ public class Main
            total += bank.get(i).getBalance();
         }
 
-        System.out.println("The piggy bank holds: " + fp.format(total));
+        System.out.println("The piggy bank holds: $" + fp.format(total));
 
         
     }

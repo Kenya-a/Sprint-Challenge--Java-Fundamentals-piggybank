@@ -44,7 +44,7 @@ public class Nickel extends AbstractBank
     @Override
     public String toString()
     {
-        return quantity + " " + coinName;
+        return quantity + " Nickels";
     }
 
     @Override
