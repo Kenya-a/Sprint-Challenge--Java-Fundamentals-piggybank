@@ -11,14 +11,13 @@ public class Main
 
         ArrayList<AbstractBank> bank = new ArrayList<AbstractBank>();
 
-        //bank.add(new Dime());
-        //bank.add(new Dime(7));
-        //bank.add(new Dollar());
-        //bank.add(new Dollar(80));
-        //bank.add(new Nickel());
-        //bank.add(new Penny(20));
-        bank.add(new Penny(5));
         bank.add(new Quarter());
+        bank.add(new Dime());
+        bank.add(new Dollar(5));
+        bank.add(new Nickel(3));
+        bank.add(new Dime(7));
+        bank.add(new Dollar(1));
+        bank.add(new Penny(10));
         
 
         //loop
@@ -35,7 +34,7 @@ public class Main
            total += bank.get(i).getBalance();
         }
 
-        System.out.println("Total: " + total);
+        System.out.println("The piggy bank holds: " + total);
 
         
     }

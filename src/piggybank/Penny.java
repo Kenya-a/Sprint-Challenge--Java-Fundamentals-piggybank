@@ -44,7 +44,7 @@ public class Penny extends AbstractBank
     @Override
     public String toString()
     {
-        return quantity + " " + coinName;
+        return quantity + " Pennies ";
     }
 
     @Override

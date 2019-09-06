@@ -44,7 +44,7 @@ public class Dollar extends AbstractBank
     @Override
     public String toString()
     {
-        return quantity + " " + coinName;
+        return "$ " + quantity ;
     }
 
     @Override
