@@ -14,7 +14,6 @@ public class Dime extends AbstractBank
     public Dime()
     {
         this.quantity = 1;
-    
     }
 
     public void setName(String coinName)

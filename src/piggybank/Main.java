@@ -13,6 +13,10 @@ public class Main
 
         bank.add(new Dime());
         bank.add(new Dime(7));
+        bank.add(new Dollar());
+        bank.add(new Dollar(80));
+
+        
 
         //loop
         for(int i = 0; i < bank.size(); i++)
@@ -21,7 +25,6 @@ public class Main
         }
 
         //total
-
         double total = 0.0;
 
         for(int i = 0; i < bank.size(); i++)
