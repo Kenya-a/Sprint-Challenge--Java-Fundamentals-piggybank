@@ -1,12 +1,15 @@
 package piggybank;
 
 import java.util.*;
+import java.text.DecimalFormat;
 
 
 public class Main
 {
     public static void main(String[] args)
     {
+        DecimalFormat fp = new DecimalFormat("###,###.00");
+
         //creating an ArrayList that is the PiggyBank
 
         ArrayList<AbstractBank> bank = new ArrayList<AbstractBank>();
@@ -30,11 +33,11 @@ public class Main
         double total = 0.0;
 
         for(int i = 0; i < bank.size(); i++)
-        {
+            {
            total += bank.get(i).getBalance();
         }
 
-        System.out.println("The piggy bank holds: " + total);
+        System.out.println("The piggy bank holds: " + fp.format(total));
 
         
     }
